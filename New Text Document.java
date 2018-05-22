@@ -16,6 +16,11 @@ import org.springframework.context.annotation.*;
 public class HelloWorldConfig {
    @Bean 
    public HelloWorld helloWorld(){
+	String xx = new String();
+	String xx = new String();
+	String xx = new String();
+	String xx = new String();
+	String xx = new String();
       return new HelloWorld();
    }
 }
@@ -24,6 +29,7 @@ public class HelloWorldConfig {
 public class HelloWorldConfig {
    @Bean 
    public HelloWorld helloWorld(){
+	Integer y = 0;
       return new HelloWorld();
    }
 }
